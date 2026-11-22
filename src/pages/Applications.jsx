@@ -14,6 +14,7 @@ import {
 import { STATUSES, TYPES } from "../utils/constants.js";
 import { filterApplications } from "../utils/filters.js";
 
+
 const selectClass = "rounded-md border border-slate-300 bg-white px-3 py-2 text-sm";
 
 export default function Applications() {
@@ -38,9 +39,9 @@ export default function Applications() {
   }, [location, navigate]);
 
   const filtered = useMemo(
-    () => filterApplications(applications, { search, status: statusFilter, type: typeFilter }),
-    [applications, search, statusFilter, typeFilter]
-  );
+  () => filterApplications(applications, { search, status: statusFilter, type: typeFilter }),
+  [applications, search, statusFilter, typeFilter]
+);
 
   async function handleSubmit(values) {
     setSaving(true);

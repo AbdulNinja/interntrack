@@ -2,8 +2,10 @@
 
 A web app for tracking internship and job applications in one place. Log each application, update its status as it moves through the hiring process, and see deadlines and interviews at a glance.
 
-**Live demo:** [interntrack-o4r2.vercel.app]
+**Live demo:** <https://interntrack-o4r2.vercel.app>
+
 **Repository:** [https://github.com/AbdulNinja/interntrack]
+
 **figma link:**[https://www.figma.com/proto/qxGa5ZIYM8UIF5u5YtjlfO/Untitled?node-id=3-291&t=YYawVq24V0vyiiFe-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A291]
 
 ## Features
